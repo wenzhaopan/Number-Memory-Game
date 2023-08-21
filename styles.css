@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color:#3347311e;
+}
+
+#level-title {
+  font-family: 'Roboto Slab', serif;
+  font-family: 'VT323', monospace;
+  font-size: 8rem;
+  margin:  5%;
+  color: #000000;
+}
+
+#restart{
+  font-family: 'Roboto Slab', serif;
+  font-family: 'VT323', monospace;
+  font-size: 4rem;
+  margin:  5%;
+  color: #000000;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+div p{
+  font-family: 'Roboto Slab', serif;
+  font-family: 'VT323', monospace;
+  height: 200px;
+  width: 200px;
+  justify-content:center;
+  align-items: center;
+  display:table-cell; 
+  vertical-align:middle;
+  font-size: 7rem;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  position: relative;
+  overflow: hidden;
+  transition:  transform 0.05s;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.two {
+  background-color: #4c94ff;
+}
+
+.one {
+  background-color: #4c94ff;
+}
+
+.three {
+  background-color: #4c94ff;
+}
+
+.four {
+  background-color: #4c94ff;
+}
+
+.pressedWrong {
+  box-shadow: 0 0 20px white;
+  background-color: #bc0000;
+  transform: scale(0.95); 
+}
+
+.pressedRight {
+  box-shadow: 0 0 20px white;
+  background-color: #00de4a;
+  transform: scale(0.95); 
+}
+.btnLightUp {
+  background-color: #aaccff;
+}
